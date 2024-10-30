@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "Discord Bot Codebase"
+version = "1.0.0"
+description = "A codebase for a bot"
+authors = ["Void <github.voideuw@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+discord = "^2.3.2"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+deep-translator = "^1.11.4"
+audioop-lts = "^0.2.1"
+pynacl = "^1.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

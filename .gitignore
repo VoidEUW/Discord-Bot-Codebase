@@ -1,0 +1,19 @@
+# IDEs
+.idea
+.vscode
+
+# Environment variables / Enviroments
+.env
+.venv
+
+# Python
+__pycache__
+*pyc
+
+# User-specific files
+data/logs/
+*.log
+
+# Others
+.DS_Store
+
